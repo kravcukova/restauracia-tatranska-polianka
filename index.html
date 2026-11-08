@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reštaurácia Tatranská Polianka</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #F5E7D2;
+      color: #594333;
+    }
+
+    header {
+      background: #594333;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h1 { font-size: 36px; }
+
+    .hero {
+      background: #FFFDF8;
+      padding: 65px 25px;
+      border-radius: 16px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #B77A48;
+      color: white;
+      padding: 16px 35px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #594333;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Reštaurácia Tatranská Polianka</h2>
+    <nav>
+      <a href="#uvod">Úvod</a>
+      <a href="#onas">O nás</a>
+      <a href="#menu">Jedálny lístok</a>
+      <a href="#galeria">Fotogaléria</a>
+      <a href="#kontakt">Kontakt a rezervácia</a>
+    </nav>
+  </header>
+
+  <main id="uvod">
+    <section class="hero">
+      <h1>Vitajte v našej reštaurácii</h1>
+      <p>
+        Objavte chuť tradičných jedál
+        v srdci Vysokých Tatier.
+      </p>
+      <a class="button" href="#kontakt">
+        Rezervovať stôl
+      </a>
+    </section>
+
+    <section id="onas">
+      <h2>O nás</h2>
+      <p>
+        Ponúkame tradičné domáce jedlá
+        a príjemnú atmosféru v Tatranskej Polianke.
+      </p>
+    </section>
+
+    <section id="menu">
+      <h2>Jedálny lístok</h2>
+      <p>Našu ponuku jedál čoskoro doplníme.</p>
+    </section>
+
+    <section id="galeria">
+      <h2>Fotogaléria</h2>
+      <p>Fotografie reštaurácie čoskoro pridáme.</p>
+    </section>
+  </main>
+
+  <footer id="kontakt">
+    <h3>Kontakt a rezervácia</h3>
+    <p>
+      Tatranská Polianka, Slovensko<br>
+      Telefón: +421 949 212 446<br>
+      Pondelok – Piatok: 07:30 – 19:00<br>
+      Sobota – Nedeľa: 07:00 – 18:00
+    </p>
+  </footer>
+
+</body>
+</html>
